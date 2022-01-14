@@ -104,6 +104,11 @@ body{
     color: gold;
 }
 
+#rightside-button{
+    display: flex;
+    justify-content: right;
+}
+
 .popular-collection .link-button{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -111,8 +116,7 @@ body{
 
 /* style for footer */
 footer{
-    position: relative;
-    bottom: 0;
+    width: 100%;
     background: #0A0826;
     text-align: center;
     color: white;
