@@ -74,6 +74,15 @@ main{
     color: black;
 }
 
+/* style for company logos */
+.company-logos{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin: 50px auto;
+    border: 1px solid whitesmoke;
+}
+
 /* style for collections */
 .popular-collection{
     width: 1047px;
@@ -195,6 +204,10 @@ footer{
         height: 257px;
     }
 
+    .company-logos{
+        flex-wrap: wrap;
+    }
+
     .popular-collection{
         width: 100%;
     }
@@ -251,6 +264,10 @@ footer{
     .start-image img{
         width: 257px;
         height: 257px;
+    }
+
+    .company-logos{
+        flex-wrap: wrap;
     }
 
     .popular-collection{
